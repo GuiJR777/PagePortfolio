@@ -1,0 +1,83 @@
+body h1{
+    margin-left: 50px;
+    padding-top: 20px;
+}
+#curriculo{
+    background-color: #202020;
+    margin: 50px 20px 50px 50px;
+    width: 45vw
+}
+
+#infos{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#text h3{
+    padding-bottom: 20px;
+}
+#infos a img{
+    height: 100px;
+    width: auto;
+}
+#infos a img:hover{
+    height: 96px;
+    width: auto;
+    background-color: rgba(256, 256, 256, 0.1);
+    border: 2px solid darkblue;
+    border-radius: 8px;
+}
+#experiencias{
+    padding: 20px 20px 20px 20px;
+}
+#experiencias h3{
+    padding-bottom: 20px;
+}
+#exp{
+    background-color: rgba(256, 256, 256, 0.1);
+    margin-bottom: 10px;
+}
+#exp h4{
+    font-weight: 400;
+    line-height: 30px;
+}
+#exp p{
+    line-height: 24px;
+    font-style: italic;
+}
+#formacao{
+    padding: 20px 20px 20px 20px;
+}
+#formacao h3{
+    padding-bottom: 20px;
+}
+#formacao h4{
+    line-height: 30px;
+}
+#certificacoes{
+    margin: 50px 50px 50px 20px;
+    padding: 20px 20px 20px 20px;
+    
+}
+#certificacoes h3{
+    padding-bottom: 20px;
+}
+#certificacoes h3 p{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+#certificacoes ul{
+    padding-left: 50px;
+    
+}
+#certificacoes a{
+    line-height: 26px;
+    color: #f0f0f5;
+    text-decoration: none;
+    transition: color 400ms;
+}
+#certificacoes a:hover{
+    color: darkblue;
+    transition: color 400ms;
+}

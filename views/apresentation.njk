@@ -1,0 +1,40 @@
+{% extends "layoutpadrao.njk" %}
+
+{% block styles %}
+        <title>Apresentação</title>
+        <link rel="stylesheet" href="home.css">
+        <script type="text/javascript" src="/scripts/script.js"> </script>
+{% endblock %}
+
+{% block content %}
+<div id= "user">
+    <img src="https://avatars1.githubusercontent.com/u/55406858?s=460&u=2aef596e0d53fe01ed5b3b3ada4a8cf5b051d756&v=4" alt="Guilherme Jesuino Ramires">
+    <h1>Guilherme Jesuino Ramires</h1>
+    <h2>Graduando em <a href="http://sin.inf.ufsc.br/sobre-o-curso/descricao/" target="_blank">Sistemas de Informação</a> pela <a href="https://estrutura.ufsc.br/" target="_blank">UFSC</a> e estudando Desenvolvimento Web.</h2>
+</div>
+
+<div id="content">
+    <div id= "presentation">
+    
+        <h3>Apresentação</h3>
+        <p>Sou estudante de Sistemas de Informação pela Universidade Federal de Santa Catarina, e tenho estudado desenvolvimento web pela internet. Aprendi programação com a linguagem Python e estou me desenvolvendo em HTML5, CSS3 e Javascript, alem de estar aprendendo os frameworks Django, React e React Native. Estou a 5 anos no mercado de trabalho, mas ainda não possuo experiência na área de desenvolvimento.</p>
+    </div> 
+    <div id= "presentation">
+    
+        <h3>Objetivo</h3>
+        <p>Tenho como objetivo profissional a recolocação no mercado de trabalho na área de desenvolvimento web, mobile ou de software, e a longo prazo, atingir o status de Desenvolvedor FullStack.</p>
+        <p>Acredito que a melhor forma de aprendizado é com a prática e por isso estou em busca de uma oportunidade na área. Também tenho interesse em trabalhos freelancers e/ou por encomenda, tanto para aprendizado quanto para ganho de experiência.</p>
+    </div> 
+    
+    
+</div>
+<div id="more">
+    <p>Para visualizar os projetos por mim desenvolvidos acesse a aba <a href="projetos.html">Projetos</a>, você tambem pode acessar meu currículo clicando <a href="curriculo.html">Aqui</a>. E para entrar em contato basta clicar em qualquer um dos ícones de contato abaixo.</p>
+</div>
+<div id="why">
+    <h3>Mas porque fazer essa página?</h3>
+    <img id="mais" src="img/down-arrow.svg" alt="ver mais" onclick="clicou()">
+    <p id="texto"> </p>
+    <img id="menos" src="img/up-arrow.svg" alt="fechar" onclick="clicou2()">
+</div>
+{% endblock %}

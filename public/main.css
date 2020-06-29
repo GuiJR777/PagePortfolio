@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background: #0A1821;
+    color: #f0f0f5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.pages{
+    background: rgba(14, 14, 14, 0.5);
+    color: #f0f0f5;
+    padding: 20px 0 20px 30px;
+    border-bottom: 1px solid #333;
+    
+}
+header div{
+    text-align: center;
+    
+}
+header div a{
+    color: #f0f0f5;
+    margin: 0 16px;
+    text-decoration: none;
+    transition: color 400ms;
+}
+header div a:hover{
+    color: darkblue;
+    transition: color 400ms;
+}
+
+
+
+#user{
+    margin-top: 50px;
+    text-align: center;
+}
+#user img{
+    height: 200px;
+    width: auto;
+    border: 2px solid;
+    border-radius: 50%;
+}
+#user h1{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+#user h2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+#user a{
+    margin: 0;
+    color: #f0f0f5;
+    text-decoration: none;
+    transition: color 400ms;
+}
+#user a:hover{
+    color: darkblue;
+    transition: color 400ms;
+}
+#content{
+    display: flex;
+}
+#more{
+    max-width: 90%;
+}
+
+
+footer{
+    padding-right: 200px;
+    padding-left: 200px;
+    display: flex;
+    background: rgba(14, 14, 14, 0.5);
+    border-top: 1px solid #333;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+#contacts{
+    text-align: center;
+    padding-right: 50px;
+    
+    
+}
+#contacts h3{
+    margin-top: 6px;
+    
+}
+#contacts a img{
+    margin: 20px 0px 20px 20px;
+    height: 30px;
+    width: auto;
+    
+
+}
+#contacts a img:hover{
+    height: 26px;
+    width: auto;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    background-color: #f0f0f5;
+    transition: color 400ms;   
+
+}
+
+#tecnologias{
+    text-align: center;
+    padding-left: 50px;
+    border-left: 1px solid #333;
+    
+}
+
+#tecnologias h3{
+    margin-top: 6px;
+    
+}
+#tecnologias img{
+    margin: 20px 0px 20px 20px;
+    height: 30px;
+    width: auto;
+
+}
