@@ -1,0 +1,80 @@
+@media (max-width: 900px){
+    #user{
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: left;
+    }
+    #user img{
+        height: 100px;
+        width: auto;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+    #user h1{
+        max-width: 70vw;
+        
+    }
+    #user h2{
+        max-width: 80vw;
+    }
+    #content{
+        flex-direction: column;
+    }
+    #more{
+        max-width: 70vh;
+    }
+    
+    #contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    #tecnologias{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /* home */
+
+    #presentation{
+        margin: 80px 0px 0px 100px;
+        max-width: 70vw;
+        
+    }
+    #more a{
+        text-decoration: underline;
+    }
+    
+    #why #mais{
+        margin-left: 200px;
+    }
+    #why #menos{
+        margin-left: 200px;
+    }
+
+    #why p{
+        padding: 20px 0 20px 20px;
+        
+    }     
+    
+    /* projetos */
+
+    .projects{
+        grid-template-columns: none;
+        justify-content: center;
+    }
+    .project{
+        margin-bottom: 20px;
+    }
+
+    /* curriculo */
+
+    #curriculo{
+        width: 80vw
+    }
+
+    #certificacoes{
+        margin: 50px 50px 50px 50px;
+        
+    }
+
+}
