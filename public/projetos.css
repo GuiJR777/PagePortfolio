@@ -17,6 +17,7 @@ body h1{
     height: 450px;
     width: 300px;
     padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     border: 2px solid #f0f0f5;
     border-radius: 8px;
     
@@ -32,9 +33,12 @@ body h1{
     width: 300px;
     display: flex;
     flex-direction: column;
+    align-items: center;  
+    
+}
+.tec{
+    display: grid;
     align-items: center;
-    
-    
 }
 .img{
     height: 250px;

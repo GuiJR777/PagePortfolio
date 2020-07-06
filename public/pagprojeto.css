@@ -1,0 +1,32 @@
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.pag{
+    margin: 20px auto;
+    width: 850px;
+    height: 650px;
+    position: relative;
+}
+.pag iframe{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+p a{
+    text-decoration: underline;
+    color: #f0f0f5;
+    transition: color 400ms;
+    cursor: pointer;
+
+}
+p a:hover{
+    color: darkblue;
+    transition: color 400ms;
+}

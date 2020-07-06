@@ -1,0 +1,24 @@
+{% extends "layoutpadrao.njk" %}
+
+{% block styles %}
+    <title>{{projeto.title}}</title>
+    <link rel="stylesheet" href="pagprojeto.css">
+    <script type="text/javascript" src="/scripts/script.js"> </script>
+{% endblock %}
+
+{% block content %}
+    <h1>{{projeto.title}}</h1>
+
+    <div class="pag">
+        <iframe src="https://github.com/GuiJR777/{{projeto.id}}" frameborder="0"></iframe>
+        
+    </div>
+
+    <p>Para acessar o repositório do projeto clique 
+        <a href="https://github.com/GuiJR777/{{projeto.id}}" target="_blank">Aqui</a>
+        .
+    </p>
+    
+
+
+{% endblock %}

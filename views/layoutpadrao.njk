@@ -4,9 +4,9 @@
     <head>
        
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="responsive.css">
 
         {% block styles %}{% endblock %}
+        <link rel="stylesheet" href="responsive.css">
 
     </head>
 
@@ -25,22 +25,18 @@
         <footer>
             <div id= "contacts">
                 <h3>Contatos e Redes:</h3>
-                <a href="https://api.whatsapp.com/send?phone=5548984634295" target="_blank"><img src="/img/whatsapp.svg" alt="Whatsapp"></a>
-                <a href="https://www.instagram.com/guilhermejramires/?hl=pt-br" target="_blank"><img src="/img/instagram-esbocado.svg" alt="Instagram"></a>
-                <a href="https://github.com/GuiJR777" target="_blank"><img src="/img/github.svg" alt="Github"></a>
-                <a href="https://www.linkedin.com/in/guilherme-ramires-4480a0160" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin"></a>
-                <a href="mailto:guilhermejramires@gmail.com" target="_blank"><img src="/img/gmail.svg" alt="Gmail"></a>
+                {% for i in userdata.web %}
+                <a href="{{i.url}}" target="_blank"><img src="{{i.icon}}" alt="{{i.name}}"></a>
+                {% endfor %}
 
             </div>
             
             <div id="tecnologias">   
-                <h3>Tecnologias:</h3>   
-                <img src="/img/html5.svg" alt="HTML5">
-                <img src="/img/css.svg" alt="CSS3">
-                <img src="/img/javascript.svg" alt="Javascript">
-                <img src="/img/icons8-python.svg" alt="Python">
-                <img src="/img/icons8-django.svg" alt="Django">
-                <img src="/img/icons8-reagir.svg" alt="React">
+                <h3>Tecnologias:</h3>
+                {% for j in userdata.tec %}   
+                <img src="{{j.icon}}" alt="{{j.name}}">
+                {% endfor %}
+                
                     
                      
             </div>
